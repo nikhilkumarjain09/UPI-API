@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unity Streaming</title>
+</head>
+<style>
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 100% !important;
+        height: auto;
+    }
+</style>
+<body>
+    <img src="{{ url_for('video_feed', camera_name=path) }}" style="height:100%;width:100%" />
+    <!-- Add more camera sections as needed -->
+
+</body>
+</html>
